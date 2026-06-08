@@ -125,8 +125,8 @@ if ticker_input:
                     
                     # Gemini Model 인스턴스 생성 및 시스템 지침 부여
                     model = genai.GenerativeModel(
-                        model_name="gemini-1.5-pro", # 금융 추론 역량에 최적화된 프로 모델 적용
-                        system_instruction=SYSTEM_INSTRUCTION
+                    model_name="gemini-3.1-pro-preview", 
+                    system_instruction=SYSTEM_INSTRUCTION
                     )
                     
                     # 리서치 수행 요청
