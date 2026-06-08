@@ -125,7 +125,7 @@ if ticker_input:
                     
                     # Gemini Model 인스턴스 생성 및 시스템 지침 부여
                     model = genai.GenerativeModel(
-                    model_name="gemini-3.1-pro-preview", 
+                    model_name="gemini-2.5-flash", 
                     system_instruction=SYSTEM_INSTRUCTION
                     )
                     
